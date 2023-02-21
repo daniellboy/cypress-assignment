@@ -8,8 +8,8 @@ QA automated testing evaluation project using Cypress.io
 
 ### How to execute the test
 
-- Headed : npx cypress run --spec cypress/e2e --browser chrome --headed
-- Headless : npx cypress run --spec cypress/e2e --browser chrome
+- Headed : `npx cypress run --spec cypress/e2e --browser chrome --headed`
+- Headless : `npx cypress run --spec cypress/e2e --browser chrome`
 
 
 
