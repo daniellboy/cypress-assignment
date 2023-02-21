@@ -1,0 +1,14 @@
+{
+  "name": "cypress-assignment",
+  "version": "1.0.0",
+  "description": "cypress assignment",
+  "main": "index.js",
+  "scripts": {
+    "cypress": "cypress open"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.6.0"
+  }
+}
