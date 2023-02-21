@@ -32,7 +32,7 @@ describe('Search and Favorite Team', () => {
     cy.get('h4').contains('Teams').click();
     cy.get('div[data-cy="fav-team-list"]>div>div>div>span>img[alt="Manchester City"]', { timeout: 10000 }).should('be.visible')
     cy.get('img[alt="Manchester City"]').parent().parent().prev().eq(0).click();
-    cy.get('div[data-cy="fav-team-list"]>div>div>div>span>img[alt="Manchester City"]', { timeout: 10000 }).should('not.be.visible')
+    cy.get('div[data-cy="fav-team-list"]>div>div>div>span>img[alt="Manchester City"]', { timeout: 10000 }).should('not.to.exist')
   })
 
   it('Search team which is not exists', () => {
